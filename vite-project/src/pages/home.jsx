@@ -1,5 +1,9 @@
 import React from 'react';
 
+const Aboutme = ` Hey babe this is sultan. a web developer .  `;
+
+const sum = 151 + 50;
+
 function Home() {
   return (
     <div>
@@ -11,6 +15,10 @@ function Home() {
         consequatur delectus ipsum dignissimos recusandae! Debitis odit quod
         veritatis rem ullam?
       </p>
+
+      <h2>{Aboutme}</h2>
+
+      <p> {sum + 40} </p>
     </div>
   );
 }
