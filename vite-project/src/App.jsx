@@ -5,6 +5,8 @@ import './App.css';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Fragments from './pages/Fragments';
+import Clipboard from './pages/Clipboard';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -24,6 +26,10 @@ function App() {
       <Contact name="sanjar" number="6546455" />
 
       <Contact name="Abib" number="01857589329" />
+
+      <Fragments />
+
+      <Clipboard />
     </div>
   );
 }
