@@ -7,6 +7,8 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Fragments from './pages/Fragments';
 import Clipboard from './pages/Clipboard';
+import Focus from './pages/Focus';
+import Keyboard from './pages/Keyboard';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -30,6 +32,10 @@ function App() {
       <Fragments />
 
       <Clipboard />
+
+      <Focus />
+
+      <Keyboard />
     </div>
   );
 }
