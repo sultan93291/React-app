@@ -17,6 +17,7 @@ function About() {
   function dcount() {
     setCount(prevCount => prevCount - 1);
     setTheme('Yellow');
+
     //setCount(count - 1);
   }
 
