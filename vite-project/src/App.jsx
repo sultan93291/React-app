@@ -12,10 +12,8 @@ import Keyboard from './pages/Keyboard';
 import Fiter from './pages/Fiter';
 import WelcomeAdmin from './pages/WelcomeAdmin';
 import Style from './pages/Style';
-
+import ReactBootstrap from './pages/ReactBootstrap';
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className="App">
       <h1 className="firstClass">hey bro this is sultan </h1>
@@ -32,6 +30,7 @@ function App() {
       <Fiter />
       <WelcomeAdmin />
       <Style />
+      <ReactBootstrap />
     </div>
   );
 }

@@ -1,0 +1,15 @@
+.root {
+  font-size: 15px;
+  background-color: red;
+  padding: 5px;
+  margin-left: 5px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.root:hover {
+  background-color: green;
+  color: black;
+}

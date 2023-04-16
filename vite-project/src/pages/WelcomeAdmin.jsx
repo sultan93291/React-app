@@ -4,7 +4,7 @@ function WelcomeAdmin() {
   const add = () => {
     let Age = window.prompt('Enter Your Age ');
 
-    if (Age <= 18) {
+    if (Age <= 18 || Age >= 60) {
       alert(' Sorry You are not Eligble to enter this site 😥 . ');
     } else {
       alert('Hey Welcome Strangers 🥰 ');
