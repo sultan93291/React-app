@@ -4,8 +4,12 @@ function WelcomeAdmin() {
   const add = () => {
     let Age = window.prompt('Enter Your Age ');
 
-    if (Age <= 18 || Age >= 60) {
+    if (Age === null || Age === '') {
+      alert(' please enter your age  ');
+    } else if (Age <= 18 || Age >= 60) {
       alert(' Sorry You are not Eligble to enter this site 😥 . ');
+    } else if (Age != NaN) {
+      alert('Enter Only number strings are not allow ');
     } else {
       alert('Hey Welcome Strangers 🥰 ');
     }

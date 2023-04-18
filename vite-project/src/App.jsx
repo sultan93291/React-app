@@ -13,6 +13,11 @@ import Fiter from './pages/Fiter';
 import WelcomeAdmin from './pages/WelcomeAdmin';
 import Style from './pages/Style';
 import ReactBootstrap from './pages/ReactBootstrap';
+import Input from './pages/Input';
+import Form from './pages/Form';
+import Person from './pages/Person';
+import Pra from './pages/Pra';
+import Accordion from './pages/Accordion';
 function App() {
   return (
     <div className="App">
@@ -31,6 +36,11 @@ function App() {
       <WelcomeAdmin />
       <Style />
       <ReactBootstrap />
+      <Input />
+      <Form />
+      <Person />
+      <Pra />
+      <Accordion />
     </div>
   );
 }
