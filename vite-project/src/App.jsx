@@ -18,29 +18,41 @@ import Form from './pages/Form';
 import Person from './pages/Person';
 import Pra from './pages/Pra';
 import Accordion from './pages/Accordion';
+import Header from './pages/Header';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
 function App() {
   return (
     <div className="App">
-      <h1 className="firstClass">hey bro this is sultan </h1>
-      <Home />
-      <About />
-      <Contact name="sultan" number="3516514" />
-      <Contact name="Ahmed" number="5466460" />
-      <Contact name="sanjar" number="6546455" />
-      <Contact name="Abib" number="01857589329" />
-      <Fragments />
-      <Clipboard />
-      <Focus />
-      <Keyboard />
-      <Fiter />
-      <WelcomeAdmin />
-      <Style />
-      <ReactBootstrap />
-      <Input />
-      <Form />
-      <Person />
-      <Pra />
-      <Accordion />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/About" element={<About />}>
+            {' '}
+          </Route>
+
+          <Route
+            path="/Contact"
+            element={<Contact name="sultan" number="416464" />}
+          >
+            {' '}
+          </Route>
+
+          <Route path="/Fragments" element={<Fragments />}></Route>
+          <Route path="/Clipboard" element={<Clipboard />}></Route>
+          <Route path="/Focus" element={<Focus />}></Route>
+          <Route path="/Keyboard" element={<Keyboard />}></Route>
+          <Route path="/Fiter" element={<Fiter />}></Route>
+          <Route path="/Welcome" element={<WelcomeAdmin />}></Route>
+          <Route path="/Style" element={<Style />}></Route>
+          <Route path="/React" element={<ReactBootstrap />}></Route>
+          <Route path="/Input" element={<Input />}></Route>
+          <Route path="/Form" element={<Form />}></Route>
+          <Route path="/Person" element={<Person />}></Route>
+          <Route path="/Pra" element={<Pra />}></Route>
+          <Route path="/Accordion" element={<Accordion />}></Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

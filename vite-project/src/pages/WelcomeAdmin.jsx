@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from './Header';
 
 function WelcomeAdmin() {
   const add = () => {
@@ -8,8 +9,6 @@ function WelcomeAdmin() {
       alert(' please enter your age  ');
     } else if (Age <= 18 || Age >= 60) {
       alert(' Sorry You are not Eligble to enter this site 😥 . ');
-    } else if (Age != NaN) {
-      alert('Enter Only number strings are not allow ');
     } else {
       alert('Hey Welcome Strangers 🥰 ');
     }
@@ -17,6 +16,7 @@ function WelcomeAdmin() {
 
   return (
     <>
+      <Header />
       <button onClick={add} className=" btn  btn-danger m-2 p-2 ">
         {' '}
         Age{' '}

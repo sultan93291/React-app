@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from './Header';
 
 function Clipboard() {
   const onCopyTxt = () => {
@@ -19,6 +20,7 @@ function Clipboard() {
 
   return (
     <>
+      <Header />
       <p onCopy={onCopyTxt}>
         {' '}
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error labore

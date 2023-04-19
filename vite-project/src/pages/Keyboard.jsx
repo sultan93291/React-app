@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from './Header';
 
 function Keyboard() {
   const Onkeydown = () => {
@@ -15,6 +16,7 @@ function Keyboard() {
 
   return (
     <div>
+      <Header />
       <br /> <br />
       <h2 className=" m-2 "> Keyboard Event </h2>
       <input

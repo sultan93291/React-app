@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Header from './Header';
 
 // hook and jsx state and use state example
 
@@ -28,6 +29,7 @@ function About() {
 
   return (
     <div className="m-2 fs-1">
+      <Header />
       <button onClick={dcount} className="btn btn-outline-danger m-2">
         -
       </button>

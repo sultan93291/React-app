@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Header from './Header';
 
 export default function Pra() {
   const [firstname, setfirstname] = useState('');
@@ -16,6 +17,8 @@ export default function Pra() {
 
   return (
     <>
+      
+      <Header/>
       <h2> Let's Check you in </h2>
 
       <label htmlFor="firstname" className=" form-label m-2 ">

@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from './Header';
 
 function Input() {
   const Onchange = e => {
@@ -9,6 +10,7 @@ function Input() {
 
   return (
     <>
+      <Header />
       <input
         type="text"
         name=" Chanel_name"

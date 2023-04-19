@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from './Header';
 
 const Aboutme = ` Hey babe this is sultan. a web developer .  `;
 
@@ -7,6 +8,8 @@ const sum = 151 + 50;
 function Home() {
   return (
     <div>
+
+      <Header/>
       <h1> this is the home page </h1>
 
       <p className="fs-1">

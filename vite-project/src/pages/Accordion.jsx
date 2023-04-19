@@ -1,10 +1,13 @@
 import { useState } from 'react';
+import Header from './Header';
 
 export default function Accordion() {
   const [activeIndex, setactiveIndex] = useState('0');
 
   return (
     <>
+      <Header />
+
       <h2> Sultan , Ahmed </h2>
 
       <Panel

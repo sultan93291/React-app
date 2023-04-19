@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from './Header';
 
 function Focus() {
   const Focustxt = () => {
@@ -9,6 +10,8 @@ function Focus() {
   };
   return (
     <div>
+
+      <Header/>
       <br /> <br />
       <h1> Focus Event </h1>
       <input

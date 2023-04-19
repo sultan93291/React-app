@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from './Header';
 
 const person = {
   name: 'sultan ahmed sanjar',
@@ -18,6 +19,7 @@ const imgs = {
 function Person() {
   return (
     <>
+      <Header />
       <div style={person.theme}>
         <h2> {person.name}'is cool </h2>
         <img

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Header from './Header';
 
 function Form() {
   // const bd = document.querySelector('#bd');
@@ -15,6 +16,8 @@ function Form() {
 
   return (
     <>
+      
+      <Header/>
       <select
         name="category"
         onChange={Formchange}
